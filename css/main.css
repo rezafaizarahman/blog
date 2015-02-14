@@ -785,7 +785,8 @@ pre .javascript .function {
 }
 .copyright,
 .author {
-  text-transform: uppercase;
+  text-transform: lowercase;
+  position: center;
 }
 .with-love {
   display: inline-block;
