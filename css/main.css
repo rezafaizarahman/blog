@@ -323,6 +323,7 @@ img {
   display: block;
   margin: auto 0;
   max-width: 100%;
+  height: auto;
 }
 .center {
   text-align: center;
@@ -334,15 +335,15 @@ img {
   text-align: right;
 }
 @font-face {
-  font-family: 'default';
-  src: url("../fonts/icon-default/icomoon.eot?-9394c0");
-  src: url("../fonts/icon-default/icomoon.eot?#iefix-9394c0") format('embedded-opentype'), url("../fonts/icon-default/icomoon.woff?-9394c0") format('woff'), url("../fonts/icon-default/icomoon.ttf?-9394c0") format('truetype'), url("../fonts/icon-default/icomoon.svg?-9394c0#default") format('svg');
+  font-family: 'linecons';
+  src: url("../fonts/icon-linecons/icomoon.eot?-9394c0");
+  src: url("../fonts/icon-linecons/icomoon.eot?#iefix-9394c0") format('embedded-opentype'), url("../fonts/icon-linecons/icomoon.woff?-9394c0") format('woff'), url("../fonts/icon-linecons/icomoon.ttf?-9394c0") format('truetype'), url("../fonts/icon-linecons/icomoon.svg?-9394c0#linecons") format('svg');
   font-weight: normal;
   font-style: normal;
 }
 [class^="icon-"],
 [class*=" icon-"] {
-  font-family: 'default';
+  font-family: 'linecons';
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -371,158 +372,72 @@ img {
 .icon-heart {
   font-size: 14px;
 }
+.icon-home,
+.icon-archives,
+.icon-tags,
+.icon-about,
+.icon-feed {
+  font-size: 20px;
+}
+.icon-external-link {
+  font-size: 14px;
+}
 .icon-logo:before {
-  content: "\e61c";
-}
-.icon-home:before {
-  content: "\e605";
-}
-.icon-archives:before {
   content: "\e60b";
 }
+.icon-home:before {
+  content: "\e60c";
+}
+.icon-archives:before {
+  content: "\e60a";
+}
 .icon-tags:before {
-  content: "\e610";
-}
-.icon-about:before {
-  content: "\e612";
-}
-.icon-feed:before {
-  content: "\e62b";
-}
-.icon-external-link:before {
-  content: "\e607";
-}
-.icon-heart:before {
-  content: "\e601";
-}
-.icon-account-circle:before {
-  content: "\e600";
-}
-.icon-favorite-outline:before {
-  content: "\e602";
-}
-.icon-get-app:before {
-  content: "\e603";
-}
-.icon-grade:before {
   content: "\e604";
 }
-.icon-invert-colors:before {
-  content: "\e606";
+.icon-feed:before {
+  content: "\e605";
 }
-.icon-room:before {
-  content: "\e608";
+.icon-heart:before {
+  content: "\e600";
 }
-.icon-schedule:before {
+.icon-about:before {
+  content: "\e602";
+}
+.icon-external-link:before {
   content: "\e609";
 }
 .icon-search:before {
-  content: "\e60a";
-}
-.icon-location-on:before {
-  content: "\e60c";
-}
-.icon-brightness-high:before {
-  content: "\e60d";
-}
-.icon-brightness-low:before {
-  content: "\e60e";
-}
-.icon-brightness-medium:before {
-  content: "\e60f";
-}
-.icon-format-quote:before {
-  content: "\e611";
-}
-.icon-keyboard-arrow-down:before {
-  content: "\e613";
-}
-.icon-keyboard-arrow-left:before {
-  content: "\e614";
-}
-.icon-keyboard-arrow-right:before {
-  content: "\e615";
-}
-.icon-keyboard-arrow-up:before {
-  content: "\e616";
-}
-.icon-keyboard-capslock:before {
-  content: "\e617";
-}
-.icon-audiotrack:before {
-  content: "\e618";
-}
-.icon-brightness-1:before {
-  content: "\e619";
-}
-.icon-brightness-2:before {
-  content: "\e61a";
-}
-.icon-brightness-3:before {
-  content: "\e61b";
-}
-.icon-brightness-4:before {
-  content: "\e61c";
-}
-.icon-brightness-5:before {
-  content: "\e61d";
-}
-.icon-brightness-6:before {
-  content: "\e61e";
-}
-.icon-brightness-7:before {
-  content: "\e61f";
-}
-.icon-filter-vintage:before {
-  content: "\e620";
-}
-.icon-hdr-strong:before {
-  content: "\e621";
-}
-.icon-nature-people:before {
-  content: "\e622";
-}
-.icon-timelapse:before {
-  content: "\e623";
-}
-.icon-timer-auto:before {
-  content: "\e624";
-}
-.icon-layers:before {
-  content: "\e625";
-}
-.icon-pin-drop:before {
-  content: "\e626";
-}
-.icon-arrow-drop-down:before {
-  content: "\e627";
-}
-.icon-arrow-drop-up:before {
-  content: "\e628";
-}
-.icon-check:before {
-  content: "\e629";
-}
-.icon-close:before {
-  content: "\e62a";
-}
-.icon-whatshot:before {
-  content: "\e62b";
-}
-.icon-radio-button-on:before {
-  content: "\e62c";
+  content: "\e602";
 }
 .icon-star:before {
-  content: "\e62d";
+  content: "\e601";
+}
+.icon-search:before {
+  content: "\e603";
+}
+.icon-pen:before {
+  content: "\e606";
+}
+.icon-location:before {
+  content: "\e607";
+}
+.icon-photo:before {
+  content: "\e608";
+}
+.icon-lab:before {
+  content: "\e60b";
+}
+.icon-truck:before {
+  content: "\e60d";
 }
 .post pre,
 .post .highlight {
-  background: #f7f7f7;
+  background: #1d1f21;
   margin: 20px 0;
   padding: 15px;
   overflow: auto;
   font-size: 13px;
-  color: #4d4d4c;
+  color: #c5c8c6;
   line-height: 18px;
 }
 .post .highlight .gutter pre,
@@ -559,7 +474,7 @@ img {
 }
 .post .highlight figcaption {
   font-size: 0.85em;
-  color: #8e908c;
+  color: #969896;
   line-height: 1em;
   margin-bottom: 1em;
 }
@@ -578,7 +493,7 @@ img {
   border-style: solid;
   border-color: #ccc;
   border-width: 1px 0;
-  background: #f7f7f7;
+  background: #1d1f21;
   padding: 15px 40px 15px 15px;
 }
 .post .gist .gist-file {
@@ -604,8 +519,8 @@ img {
   border: none;
 }
 .post .gist .gist-file .gist-meta {
-  background: #f7f7f7;
-  color: #8e908c;
+  background: #1d1f21;
+  color: #969896;
   font: 13px "Avenir Next", Avenir, "Tahoma", "Vendana", sans-serif;
   text-shadow: 0 0;
   padding: 0;
@@ -621,7 +536,7 @@ img {
 }
 pre .comment,
 pre .title {
-  color: #8e908c;
+  color: #969896;
 }
 pre .variable,
 pre .attribute,
@@ -635,7 +550,7 @@ pre .html .doctype,
 pre .css .id,
 pre .css .class,
 pre .css .pseudo {
-  color: #c82829;
+  color: #f2777a;
 }
 pre .number,
 pre .preprocessor,
@@ -643,12 +558,12 @@ pre .built_in,
 pre .literal,
 pre .params,
 pre .constant {
-  color: #f5871f;
+  color: #f99157;
 }
 pre .class,
 pre .ruby .class .title,
 pre .css .rules .attribute {
-  color: #718c00;
+  color: #b5bd68;
 }
 pre .string,
 pre .value,
@@ -656,10 +571,10 @@ pre .inheritance,
 pre .header,
 pre .ruby .symbol,
 pre .xml .cdata {
-  color: #718c00;
+  color: #b5bd68;
 }
 pre .css .hexcolor {
-  color: #3e999f;
+  color: #8abeb7;
 }
 pre .function,
 pre .python .decorator,
@@ -669,11 +584,11 @@ pre .ruby .title .keyword,
 pre .perl .sub,
 pre .javascript .title,
 pre .coffeescript .title {
-  color: #4271ae;
+  color: #81a2be;
 }
 pre .keyword,
 pre .javascript .function {
-  color: #8959a8;
+  color: #b294bb;
 }
 .header-inner {
   margin: 0 auto;
@@ -738,7 +653,6 @@ pre .javascript .function {
   display: inline-block;
   vertical-align: top;
   line-height: 36px;
-  text-transform: uppercase;
   font-size: 20px;
   font-weight: normal;
 }
@@ -786,7 +700,6 @@ pre .javascript .function {
 .copyright,
 .author {
   text-transform: lowercase;
-  position: center;
 }
 .with-love {
   display: inline-block;
@@ -1041,16 +954,11 @@ pre .javascript .function {
   padding: 3px;
   border: 1px solid #ddd;
 }
-.posts-expand .post-body .full-image {
-  max-width: none;
-  width: 126%;
-  height: auto;
-  margin: 0 -13%;
-}
-@media (max-width: 767px) {
+@media (min-width: 992px) {
   .posts-expand .post-body .full-image {
-    max-width: 100%;
-    margin: auto;
+    max-width: none;
+    width: 126%;
+    margin: 0 -13%;
   }
 }
 .posts-expand .post-body .pullquote {
