@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[Ruang Jeda]]></title>
+  
+  <link href="/blog/atom.xml" rel="self"/>
+  <link href="http://rezafaizarahman.github.io/blog/"/>
+  <updated>2015-02-16T15:18:28.410Z</updated>
+  <id>http://rezafaizarahman.github.io/blog/</id>
+  
+  <author>
+    <name><![CDATA[reza]]></name>
+    <email><![CDATA[rezafaizarahman@gmail.com]]></email>
+  </author>
+  
+  <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Singgah]]></title>
+    <link href="http://rezafaizarahman.github.io/blog/2015/singgah/"/>
+    <id>http://rezafaizarahman.github.io/blog/2015/singgah/</id>
+    <published>2015-02-16T11:46:03.000Z</published>
+    <updated>2015-02-16T11:46:38.000Z</updated>
+    <content type="html"><![CDATA[<p><img src="https://dl.dropboxusercontent.com/u/50533527/img/blog/singgah1.png" alt=""></p>
+<p>Singgah.</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><img src="https://dl.dropboxusercontent.com/u/50533527/img/blog/singgah1.png" alt=""></p>
+<p>Singgah.</p>
+]]>
+    </summary>
+    
+      <category term="Daily" scheme="http://rezafaizarahman.github.io/blog/tags/Daily/"/>
+    
+  </entry>
+  
+</feed>
